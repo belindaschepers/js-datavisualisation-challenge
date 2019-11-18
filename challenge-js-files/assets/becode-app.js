@@ -94,7 +94,7 @@ window.onload = function() {
         }
         CreaDiv();
         
-        function draw() {
+        function drawGraph() {
         
             table1Td = table1.getElementsByTagName("td"); //séléction
             table1Th = table1.getElementsByTagName("th");
@@ -202,6 +202,6 @@ window.onload = function() {
             chart2.draw();
         };
         
-        draw();
+        drawGraph();
 
     }
